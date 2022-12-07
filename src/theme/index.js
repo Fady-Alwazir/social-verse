@@ -6,7 +6,6 @@ const Theme = ({ children }) => {
       theme={{
         token: {
           colorPrimary: '#8BC747',
-          colorSecondary: '#D4D4D873',
         },
       }}
     >
