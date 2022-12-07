@@ -1,0 +1,47 @@
+.mirror {
+  height: clamp(200px, 50vh, 350px);
+  width: 100%;
+  background: transparent linear-gradient(0deg, #000000 0%, #00000000 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 27px;
+  opacity: 0.21;
+  padding: 5px;
+}
+.border {
+  opacity: 1;
+  padding: 5px;
+  border: 2px solid #8bc747;
+  position: relative;
+  border-radius: 27px;
+  width: clamp(100px, 50vh, 200px);
+  cursor: pointer;
+}
+.avatar {
+  position: absolute;
+  bottom: 5%;
+  left: 6%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 18px;
+}
+.mirrorsContainer {
+  display: flex;
+
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .mirrorsContainer {
+    flex-wrap: wrap;
+  }
+  .border {
+    width: 150px;
+  }
+}
