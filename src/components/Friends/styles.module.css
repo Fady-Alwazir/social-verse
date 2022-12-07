@@ -3,6 +3,7 @@
 }
 .friends {
   display: flex;
+  padding-top: 20px;
   flex-wrap: wrap;
   gap: 20px;
 }
