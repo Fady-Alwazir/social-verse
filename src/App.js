@@ -1,9 +1,10 @@
 import { Button } from 'antd';
+import { Navbar } from './components';
 
 function App() {
   return (
     <div>
-      <h1>test</h1>
+      <Navbar />
       <Button type="primary">Button</Button>
     </div>
   );
