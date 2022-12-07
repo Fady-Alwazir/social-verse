@@ -1,6 +1,6 @@
 import { Row, Col } from 'antd';
 
-import { Navbar, Mirrors } from './components';
+import { Navbar, Mirrors, Friends } from './components';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
           }}
         >
           <Mirrors />
+          <Friends />
         </Col>
       </Row>
     </div>
