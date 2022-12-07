@@ -1,4 +1,3 @@
-import styles from './styles.module.css';
 import { Row, Col, Input } from 'antd';
 import logo from '../../assets/VVERSE Logo.png';
 import homepageIcon from '../../assets/Home, homepage, menu.svg';
@@ -18,7 +17,7 @@ const Navbar = () => {
       style={{ backgroundColor: 'white', padding: '10px 40px' }}
       justify="space-evenly"
     >
-      <Col xl={3} lg={1} md={0} sm={0} xs={0} className={styles.logo}>
+      <Col xl={3} lg={1} md={0} sm={0} xs={0}>
         <img src={logo} alt="logo" />
       </Col>
       <Col xl={3} lg={4} md={4} sm={4} xs={4}>
