@@ -17,6 +17,12 @@ const Friends = () => {
         <img src={SecondFriend} alt="SecondFriend" />
         <img src={ThirdFriend} alt="ThirdFriend" />
         <img src={FourthFriend} alt="FourthFriend" />
+        <img src={firstFriend} alt="firstFriend" />
+        <img src={SecondFriend} alt="SecondFriend" />
+        <img src={ThirdFriend} alt="ThirdFriend" />
+        <img src={FourthFriend} alt="FourthFriend" />
+        <img src={firstFriend} alt="firstFriend" />
+        <img src={SecondFriend} alt="SecondFriend" />
       </div>
     </div>
   );

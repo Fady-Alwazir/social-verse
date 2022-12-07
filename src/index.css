@@ -6,3 +6,6 @@
 body {
   background-color: #d4d4d873;
 }
+.react-multi-carousel-item {
+  padding: 0 10px;
+}

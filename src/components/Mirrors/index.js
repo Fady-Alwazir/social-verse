@@ -9,6 +9,9 @@ const Mirrors = () => {
         <Mirror />
         <Mirror />
         <Mirror />
+        <Mirror />
+        <Mirror />
+        <Mirror />
       </div>
     </div>
   );
